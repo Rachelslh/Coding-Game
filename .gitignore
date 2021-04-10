@@ -1,0 +1,17 @@
+## Unity .gitignore
+## place the the project root
+
+## Unity specific
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+
+## Unity generated project files
+*.sln
+*.unityproj
+*.csproj
+
+## Visual studio user-specific files
+*.suo
+*.user
+*.sln.docstates

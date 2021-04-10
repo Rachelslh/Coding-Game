@@ -1,0 +1,25 @@
+2- x-axis movement:
+
+	public float sidewaysForce = 500f;
+	
+	if (Input.GetKey("d"))	// If the player is pressing the "d" key
+	{
+		// Add a force to the right
+		rb.AddForce(sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
+	}
+
+	if (Input.GetKey("a"))  // If the player is pressing the "a" key
+	{
+		// Add a force to the left
+		rb.AddForce(-sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
+	}
+
+3- Camera follow:
+
+	public Transform player;	// A variable that stores a reference to our Player
+	public Vector3 offset;		// A variable that allows us to offset the position (x, y, z)
+	
+	// Set our position to the players position and offset it
+	transform.position = player.position + offset;
+
+4- Collision:
