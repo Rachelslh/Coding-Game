@@ -10,7 +10,7 @@ All brought together in a low-poly environment and a well-designed interface tha
 
 ## Poster
 <p align="center">
-<img src="https://github.com/Rachelslh/Coding-Game/blob/master/Coding%20Game.png" width="300" />
+<img src="https://github.com/Rachelslh/Coding-Game/blob/master/Coding%20Game.png" width="400" />
 </p>
 
 ## Perspectives
