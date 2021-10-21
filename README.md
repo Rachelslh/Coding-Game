@@ -9,7 +9,7 @@
 All brought together in a low-poly environment and a well-designed interface that offers full interaction with the user's input.
 
 ## Poster
-![alt text]()
+![alt text](https://github.com/Rachelslh/Coding-Game/blob/master/Coding%20Game.png)
 
 ## Perspectives
 Create an intermediate language instead of compiling C# at runtime.
